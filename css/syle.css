@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 200px;
+    transition: height 1s;
+}
+
+header:hover{
+    height: 300px;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+header div a{
+    width: 20%
+}
+
+header div img{
+    width: 100%;
+}
+
+header nav{
+    width: 60%;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+header nav ul li a{
+    background-color: white;
+    border-radius: 30%;
+    padding: 10px;
+
+}
+
+header nav ul li a:hover{
+    background-image: linear-gradient(to right,yellow,green);
+}
+
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-style: oblique;
+    text-align: center;
+}
+
+.derechos{
+    font-style: unset;
+    text-align: center;
+}
+.iglogo{
+    width: 40px;
+}
+
+.twitterlogo{
+    width: 40px;
+}
+
+.wpplogo{
+    width: 40px;
+}
+
+.godofwar{
+    width: 600px;
+}
+
+.godofwar:hover{
+    transform: scale(0.9,0.9);
+}
+
+.slime{
+    width: 600px;
+}
+
+.slime:hover{
+    transform: scale(0.9,0.9);
+}
+
+.gtav{
+    width: 600px;
+}
+
+.gtav:hover{
+    transform: scale(0.9,0.9);
+}
+
+.re8{
+    width: 600px;
+}
+
+.re8:hover{
+    transform: scale(0.9,0.9);
+}
+.monky{
+    width: 600px;
+}
+
+.monky:hover{
+    transform: scale(0.9,0.9);
+}
+
+.valorant{
+    width: 600px;
+}
+
+.valorant:hover{
+    transform: scale(0.9,0.9);
+}
+
+.galeria{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    grid-template-rows: repeat(2,1fr);
+
+    background-color: black;
+
+    gap: 20px;
+
+}
+
+.galeria img{
+    width: 100%;
+}
+
+
+
+
