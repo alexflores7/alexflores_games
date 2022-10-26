@@ -64,8 +64,10 @@ header nav ul {
 }
 
 header nav ul li a {
+    text-decoration: none;
+    list-style: none;
     background-color: white;
-    color: rgb(0, 204, 255);
+    color: rgb(0, 0, 0);
     border-radius: 30%;
     padding: 10px;
 }
@@ -184,10 +186,4 @@ h2 {
 .menu{
     display: flex;
     align-content: center;
-}
-
-.tabla{
-    border="1px" 
-    cellpadding="10px" 
-    cellspacing="10px"
 }
