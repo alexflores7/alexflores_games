@@ -182,13 +182,7 @@ h2 {
 }
 
 .menu{
-    display: grid;
-    grid grid-template-areas: "imagen" "menu";
-    grid-template-columns: 3fr 3fr;
+    display: flex;
+    align-content: center;
 }
 
-@media screen {
-    .menu{
-         grid-template-rows: 3fr 3fr;
-    }
-}
