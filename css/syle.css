@@ -186,3 +186,8 @@ h2 {
     align-content: center;
 }
 
+.tabla{
+    border="1px" 
+    cellpadding="10px" 
+    cellspacing="10px"
+}
