@@ -10,21 +10,30 @@
     <link rel="stylesheet" href="./css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/syle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header class="menu">
+    <header>
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/Juegos_top.html">Juegos Top</a></li>
-                <li><a href="./pages/Juegos.html">Juegos</a></li>
-                <li><a href="./pages/Contacto.html">Contacto</a></li>
-                <li><a href="./pages/acerca_de_nosotros.html">Acerca de nosotros</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./pages/Juegos.html">Juegos</a>
+                        <a class="nav-link" href="./pages/Juegos_top.html">Juegos Top</a>
+                        <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+                        <a class="nav-link" href="./pages/acerca_de_nosotros.html">acerca de nosotros</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -67,14 +76,27 @@
         new WOW().init();
     </script>
 
-    <footer>
-        <div>
-            <a href="http://www.instagram.com"> <img class="iglogo" src="./assests/imagenes/ig.png"></a>
-            <a href="http://www.twitter.com"> <img class="twitterlogo" src="./assests/imagenes/twitter.jpg"></a>
-            <a href="http://www.whatsapp.com"> <img class="wpplogo" src="./assests/imagenes/wpp.png"></a>
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos un grupo de personas especializados en venta de juegos</p>
+            <p>estan invitados a pasar por nuestras redes sociales!</p>
         </div>
-        <p class="derechos">Todos los derechos reservados AF games.com</p>
-    </footer>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+                <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Alex Flores Games</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
 
     <script src="./css/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
 </body>
